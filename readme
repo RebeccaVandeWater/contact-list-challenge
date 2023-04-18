@@ -6,19 +6,19 @@
 
 *SECTION - Requirements
 *NOTE -  Visualization
-- The add contact form can be shown or hidden when necessary
+X The add contact form can be shown or hidden when necessary
 - Contacts marked as Emergency Contact must be easily distiguished
-- A custom Google Font must be added
+X A custom Google Font must be added
 - Contacts are visible when the page reloads
 - Functionality
 - Add Contact form clears when submitted
-- Add Contact form submission does not reload the page
+X Add Contact form submission does not reload the page
 - Contacts are stored in local storage.
 - Contacts can be deleted
 
 *NOTE - Step by Step Guide
-- Add The extra input fields for phone and emergency-contact to the add Contact Form
-  use type checkbox for Emergency Contact
+X Add The extra input fields for phone and emergency-contact to the add Contact Form
+X use type checkbox for Emergency Contact
 - Don't forget the name Attribute
 - Handle the form submission
 - Prevent the page from reloading when submitting the form

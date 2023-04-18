@@ -1,0 +1,124 @@
+:root{
+    --bttn-shadow: 1px 2px 4px 2px #b1b1b182;
+    --bttn-font-color: white; 
+}
+
+
+body{
+    background-color: #d0d0d0;
+    margin-block-end: 20px;
+}
+
+header{
+    margin-block-end: 20px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: 'Patua One', cursive;
+    font-size: xx-large;
+}
+
+form{
+    font-family: 'Roboto Mono', monospace;
+    margin-block-end: 20px;
+    padding-bottom: 2rem;
+}
+
+
+.subHeading{
+    box-shadow: 0px 20px 1px -18px #00000073;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: large;
+    font-weight: bold;
+    margin-inline-start: 20px;
+}
+
+.card{
+    background-color: #ffffff;
+    border: 1px solid #000000d6;
+    box-shadow: 4px 6px 15px -9px #000000d6;
+    text-align: center;
+    padding: auto;
+}
+
+.center{
+    align-items: center;
+    vertical-align: middle;
+}
+
+.center.space-evenly{
+    justify-content:space-evenly;
+}
+
+.center.space-between{
+    justify-content: space-between;
+}
+
+.padding-right{
+    padding-right: 3rem;
+}
+
+.padding-right-thin{
+    padding-right: 1rem;
+}
+
+.padding-top{
+    padding-top: 1rem;
+}
+
+.padding-bottom{
+    padding-bottom: 1rem;
+}
+
+.padding-block{
+    padding-block: 1rem;
+}
+
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #393939;
+}
+
+.btn-red{
+    background-color: #ff5353;
+    box-shadow: var(--bttn-shadow);
+    color: var(--bttn-font-color);
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.btn-red:hover{
+    background-color: #e24747;
+    transition: .5s;
+}
+
+.btn-blue{
+    background-color: #7fa8ff;
+    box-shadow: var(--bttn-shadow);
+    color: var(--bttn-font-color);
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.btn-blue:hover{
+    background-color: #6d91de;
+    transition: .2s;
+}
+
+.hidden{
+    display: none
+    !important
+}
+
+.show{
+    display: block
+}
